@@ -6,6 +6,7 @@
 html {
   height: 100%;
 }
+
 body {
   margin: 0;
   font-family: "Outfit", serif;
@@ -13,8 +14,8 @@ body {
   font-size: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Ensures navbar is at top and footer is at bottom */
-  height: 100%; /* Full viewport height */
+  justify-content: space-between;
+  height: 100%;
 }
 
 .attribution {
@@ -41,36 +42,36 @@ body {
 }
 
 .container-wrapper {
-  background-color: white; /* White background */
+  background-color: white;
   display: flex;
-  flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center children horizontally */
-  padding: 10px; /* Optional padding */
-  border-radius: 10px; /* Rounded corners */
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .container-wrapper {
-  width: 270px; /* Match the image size */
-  border-radius: 10px; /* Rounded corners */
+  width: 270px;
+  border-radius: 10px;
 }
 
 .container-wrapper img {
-  width: 100%; /* Image fills its container */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px; /* Match the container's rounded corners */
-  display: block; /* Remove inline spacing around the image */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
 }
 
 .container-text {
-  text-align: center; /* Center-align text */
-  margin-top: 20px; /* Space between the text and the previous element */
-  width: 100%; /* Ensure text matches the image width */
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
   font-weight: 200;
 }
 
 .container-text-header {
-  text-align: center; /* Center-align text */
-  width: 100%; /* Ensure text matches the image width */
+  text-align: center;
+  width: 100%;
   font-size: 20px;
   font-weight: 700;
 }
